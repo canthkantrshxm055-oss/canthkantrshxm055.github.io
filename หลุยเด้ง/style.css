@@ -1,0 +1,33 @@
+body {
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  background-color: #fffbe6;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1 {
+  color: #6b0024;
+  font-size: 2rem;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+#friend-img {
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+#friend-img:active {
+  transform: scale(1.1);
+}
+
+#counter {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: #333;
+}
